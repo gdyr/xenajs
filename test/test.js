@@ -6,4 +6,4 @@ describe('XenaJS', () => {
     chai.assert(true);
   });
 
-})
+});
