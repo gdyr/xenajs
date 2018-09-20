@@ -1,0 +1,31 @@
+{
+  "name": "xenajs",
+  "version": "1.0.0",
+  "description": "NodeJS client for XenaScripting",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdyr/xenajs.git"
+  },
+  "keywords": [
+    "xena",
+    "xenascripting",
+    "xenacompact",
+    "latency",
+    "jitter"
+  ],
+  "author": "Michael Goodyear <m@gdyr.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdyr/xenajs/issues"
+  },
+  "homepage": "https://github.com/gdyr/xenajs#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
