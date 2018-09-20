@@ -1,0 +1,13 @@
+image: node:carbon
+
+stages:
+  - tests
+
+tests:
+  stage: tests
+  script:
+    - node --version
+    - whoami
+    - rm -rf node_modules
+    - npm install
+    - REDIS=redis npm test
