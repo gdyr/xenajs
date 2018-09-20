@@ -1,4 +1,4 @@
-# XenaJS [![Build Status](https://travis-ci.com/gdyr/xenajs.svg?branch=master)](https://travis-ci.com/gdyr/xenajs)
+# XenaJS - WIP [![Build Status](https://travis-ci.com/gdyr/xenajs.svg?branch=master)](https://travis-ci.com/gdyr/xenajs)
 _A NodeJS client library for Xena Networks' XenaScripting API_
 
 XenaJS (NPM: xenascripting) provides a simple, promise-based API for controlling and monitoring Xena Networks devices using their XenaScripting API.
@@ -68,6 +68,6 @@ xc2.connect()
 
     })
 
-  })
+  });
 
 ```
